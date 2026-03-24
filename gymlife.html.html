@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymLife - Nâng Tầm Vóc Dáng</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">GYM<span>LIFE</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#features">Tính năng</a></li>
+                <li><a href="#schedule">Lịch tập</a></li>
+                <li><a href="file:///C:/Users/admin/Downloads/t%E1%BA%ADp%20luy%E1%BB%87n.pdf" download="tập luyện.pdf" class="btn-primary">Lộ trình tham khảo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>SỨC MẠNH <br>TRONG TẦM TAY</h1>
+                <p>Ứng dụng hỗ trợ tập luyện chuyên nghiệp giúp bạn theo dõi lộ trình và đạt kết quả tối ưu nhất.</p>
+    
+            </div>
+            <div class="hero-image">
+                <img src="https://i.scdn.co/image/ab67616d00001e02956466570191d4f2ef5c4113" alt="Gym App">
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2 class="section-title">Tại sao chọn GymLife?</h2>
+            <div class="feature-grid">
+                <a href="https://open.spotify.com/playlist/2SM6rniZl84fEyMCB5KMQB" target="_blank" style="text-decoration: none; color: inherit;">
+    <article class="feature-item">
+        <div class="icon">🎧</div>
+        <h3>List nhạc tập gym</h3>
+        <p>Nhạc tiếp động lực để những buổi tập thật cháy và hiệu quả 🔥🔥🔥.</p>
+    </article>
+</a>
+                <a href="https://tamanhhospital.vn/cong-cu/tinh-bmi-online/" target="_blank" style="text-decoration: none; color: inherit;">
+    <article class="feature-item">
+        <div class="icon">📊</div>
+        <h3>Theo dõi chỉ số</h3>
+        <p>Biểu đồ phân tích sức mạnh và cân nặng trực quan.</p>
+    </article>
+</a>
+                <a href="https://www.facebook.com/groups/649677973501283" target="_blank" style="text-decoration: none; color: inherit;">
+    <article class="feature-item">
+        <div class="icon">🤝</div>
+        <h3>Cộng đồng</h3>
+        <p>Kết nối với hàng triệu gymer trên toàn thế giới.</p>
+    </article>
+</a>
+            </div>
+        </section>
+
+        <section id="schedule" class="schedule-container">
+            <h2 class="section-title">Gợi ý lịch tập tuần cho người mới bắt đầu</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Thứ 2</th>
+                        <th>Thứ 3</th>
+                        <th>Thứ 4</th>
+                        <th>Thứ 5</th>
+                        <th>Thứ 6</th>
+                        <th>Thứ 7</th>
+                        <th>Chủ nhật</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thân dưới (Cơ mông và cơ đùi)</td>
+                        <td>Đẩy thân trên (Ngực,Vai, Cơ tam đầu)</td>
+                        <td>Nghỉ ngơi</td>
+                        <td>Thân dưới (Cơ mông và cơ đùi sau)</td>
+                        <td>Kéo thân trên (Lưng và bắp tay trước)</td>
+                        <td>Full Body</td>
+                        <td>Nghỉ ngơi</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dự án Tin học 12 - Nhóm 2  - Website GymLife </p>
+    </footer>
+
+</body>
+</html>
+<style>/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #050505;
+    color: #fff;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* Navbar (Flexbox) */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    background: rgba(5, 5, 5, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.logo span { color: #ff3e3e; }
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #aaa;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover { color: #fff; }
+
+.btn-primary {
+    background: #ff3e3e;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section (Flexbox) */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 8%;
+    min-height: 90vh;
+}
+
+.hero-content { flex: 1; }
+
+.hero-content h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    color: #888;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.hero-image { flex: 1; text-align: right; }
+
+.hero-image img {
+    width: 85%;
+    border-radius: 30px;
+    box-shadow: 0 20px 50px rgba(255, 62, 62, 0.15);
+}
+
+/* Features (Grid) */
+.features { padding: 100px 8%; background: #0a0a0a; }
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.feature-item {
+    background: #111;
+    padding: 40px;
+    border-radius: 20px;
+    transition: 0.3s;
+    border: 1px solid #222;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px);
+    border-color: #ff3e3e;
+}
+
+.feature-item .icon { font-size: 2.5rem; margin-bottom: 15px; }
+
+/* Table Section */
+.schedule-container { padding: 80px 8%; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #111;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #222;
+}
+
+th { background: #1a1a1a; color: #ff3e3e; }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 50px;
+    color: #444;
+    border-top: 1px solid #111;
+}
+
+/* Responsive (Thích ứng di động) */
+@media (max-width: 768px) {
+    .hero { flex-direction: column; text-align: center; }
+    .hero-content h1 { font-size: 2.5rem; }
+    .hero-image { margin-top: 50px; }
+    .nav-links { display: none; } /* Ẩn menu trên mobile để đơn giản */
+}</style>
